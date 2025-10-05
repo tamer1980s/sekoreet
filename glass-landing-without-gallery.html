@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>توريد وتركيب زجاج سيكوريت بالرياض</title>
+    <meta name="description" content="شركة متخصصة في توريد وتركيب زجاج سيكوريت بالرياض. خدمات احترافية وجودة عالية. اتصل الآن 0533878008">
+    <meta name="keywords" content="تركيب زجاج سيكوريت بالرياض، زجاج واجهات، درابزين زجاج، تفصيل مرايا، تركيب شاور زجاج، زجاج محلات، قزاز نوافذ، أبواب حمامات زجاج، زجاج دبل عازل، زجاج مقاوم للحرارة">
+    <meta name="author" content="توريد وتركيب زجاج سيكوريت">
+    
+    <!-- خطوط وأيقونات -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* إعدادات عامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #f97316;
+            --white: #ffffff;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        body {
+            font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--white);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .btn-primary {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+        
+        .btn-primary:hover {
+            background: #1e40af;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        .btn-secondary {
+            background: #25d366;
+            color: var(--white);
+        }
+        
+        .btn-secondary:hover {
+            background: #128c7e;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        /* القسم الرئيسي */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #3b82f6 100%);
+            color: var(--white);
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .contact-info {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+        
+        /* الأقسام */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--gray-600);
+            margin-bottom: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* شبكة الخدمات */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .service-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .service-icon {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+        
+        .service-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+        
+        .service-card p {
+            color: var(--gray-600);
+            line-height: 1.6;
+        }
+        
+        /* شبكة المميزات */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: var(--gray-100);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-item:hover {
+            background: var(--white);
+            box-shadow: var(--shadow);
+        }
+        
+        .feature-icon {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            min-width: 24px;
+        }
+        
+        /* معرض الأعمال */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            height: 250px;
+            background: var(--gray-200);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .gallery-placeholder {
+            color: var(--gray-600);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        /* قسم الاتصال */
+        .contact-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .contact-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+        
+        .contact-card i {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+        
+        .contact-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        
+        /* الدعوة النهائية للعمل */
+        .final-cta {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #ea580c 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .final-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        .final-cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        /* زر العودة للأعلى */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background: var(--primary-color);
+            color: var(--white);
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .back-to-top:hover {
+            background: #1e40af;
+            transform: translateY(-2px);
+        }
+        
+        .back-to-top.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        /* تصميم متجاوب */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .services-grid,
+            .features-grid,
+            .gallery-grid,
+            .contact-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            .back-to-top {
+                bottom: 20px;
+                left: 20px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- زر العودة للأعلى -->
+    <button id="backToTop" class="back-to-top hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero">
+        <div class="container">
+            <h1>توريد وتركيب زجاج سيكوريت بالرياض</h1>
+            <p class="subtitle">
+                خبرة تمتد لسنوات في تقديم أفضل حلول الزجاج السيكوريت بأعلى معايير الجودة والأمان لجميع مشاريعكم السكنية والتجارية
+            </p>
+            <div class="cta-buttons">
+                <a href="tel:0533878008" class="btn btn-primary">
+                    <i class="fas fa-phone"></i>
+                    اتصل الآن
+                </a>
+                <a href="https://wa.me/966533878008" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-whatsapp"></i>
+                    واتساب مباشر
+                </a>
+            </div>
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> 0533878008</span>
+                <span><i class="fas fa-map-marker-alt"></i> مدينة الرياض - المملكة العربية السعودية</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- من نحن -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <p class="section-subtitle">
+                نحن شركة رائدة في مجال توريد وتركيب زجاج السيكوريت بالرياض، نتميز بخبرتنا الواسعة وفريقنا المحترف المدرب على أحدث التقنيات لضمان تقديم أفضل الخدمات لعملائنا الكرام.
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-award feature-icon"></i>
+                    <div>
+                        <h4>خبرة أكثر من 10 سنوات</h4>
+                        <p>في مجال الزجاج السيكوريت والتركيبات المتخصصة</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users feature-icon"></i>
+                    <div>
+                        <h4>فريق محترف ومدرب</h4>
+                        <p>يضمن جودة التنفيذ والالتزام بالمواعيد المحددة</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-certificate feature-icon"></i>
+                    <div>
+                        <h4>شهادات جودة معتمدة</h4>
+                        <p>نلتزم بالمعايير الدولية في جميع أعمالنا</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-headset feature-icon"></i>
+                    <div>
+                        <h4>خدمة عملاء متميزة</h4>
+                        <p>نقدم استشارات مجانية ومتابعة مستمرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- خدماتنا -->
+    <section class="section" style="background: var(--gray-100);">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <p class="section-subtitle">
+                نقدم مجموعة شاملة من خدمات توريد وتركيب الزجاج السيكوريت للمشاريع السكنية والتجارية
+            </p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>زجاج واجهات</h3>
+                    <p>تركيب زجاج واجهات المحلات والشركات والمباني التجارية بأحدث التقنيات والتصاميم العصرية</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>أبواب حمامات زجاج</h3>
+                    <p>تفصيل وتركيب أبواب الحمامات الزجاجية العصرية مع ضمان الخصوصية والأناقة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3>تركيب شاور زجاج</h3>
+                    <p>حلول شاور زجاجية متطورة للحمامات بتصاميم مختلفة تناسب جميع المساحات</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>زجاج محلات</h3>
+                    <p>واجهات زجاجية للمحلات التجارية تجذب العملاء وتعطي مظهراً احترافياً متميزاً</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-window-maximize"></i>
+                    </div>
+                    <h3>قزاز نوافذ</h3>
+                    <p>تركيب قزاز النوافذ المقاوم للحرارة مع خصائص عزل ممتازة للمنازل والمكاتب</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mirror"></i>
+                    </div>
+                    <h3>تفصيل مرايا</h3>
+                    <p>تفصيل المرايا حسب المقاس المطلوب للحمامات وغرف النوم والديكورات المختلفة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>زجاج دبل عازل</h3>
+                    <p>زجاج عازل للصوت والحرارة يوفر الراحة ويقلل استهلاك الطاقة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3>زجاج مقاوم للحرارة</h3>
+                    <p>حلول زجاجية متطورة تتحمل درجات الحرارة العالية وتوفر حماية فائقة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>درابزين زجاج</h3>
+                    <p>تركيب درابزين زجاجي للسلالم والشرفات يجمع بين الأمان والجمال</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.1rem; color: var(--gray-600); margin-bottom: 20px;">
+                    للاستفسار عن خدماتنا والحصول على عرض سعر مجاني
+                </p>
+                <a href="tel:0533878008" class="btn btn-primary">
+                    <i class="fas fa-phone"></i>
+                    اتصل بنا الآن - 0533878008
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- لماذا تختارنا -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">لماذا تختارنا؟</h2>
+            <p class="section-subtitle">
+                نتميز بعدة مزايا تجعلنا الخيار الأول لعملائنا في الرياض
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-star feature-icon"></i>
+                    <div>
+                        <h4>جودة عالية مضمونة</h4>
+                        <p>نستخدم أفضل أنواع الزجاج السيكوريت مع ضمان شامل على جميع أعمالنا</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <div>
+                        <h4>سرعة في التنفيذ</h4>
+                        <p>نلتزم بالمواعيد المحددة ونسعى لإنجاز المشاريع في أقصر وقت ممكن</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-dollar-sign feature-icon"></i>
+                    <div>
+                        <h4>أسعار منافسة</h4>
+                        <p>نقدم أفضل الأسعار في السوق مع جودة لا تقبل المساومة</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-tools feature-icon"></i>
+                    <div>
+                        <h4>معدات حديثة</h4>
+                        <p>نستخدم أحدث الأدوات والمعدات لضمان دقة التركيب والتشطيب</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-handshake feature-icon"></i>
+                    <div>
+                        <h4>ثقة وأمانة</h4>
+                        <p>سمعتنا الطيبة وثقة عملائنا هي أهم ما نحرص عليه</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <i class="fas fa-wrench feature-icon"></i>
+                    <div>
+                        <h4>صيانة مستمرة</h4>
+                        <p>نوفر خدمات الصيانة والدعم الفني بعد التركيب</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- اتصل بنا -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <p class="section-subtitle">
+                نحن في خدمتكم على مدار الساعة للرد على استفساراتكم وتقديم الاستشارات المجانية
+            </p>
+            
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>اتصل بنا</h4>
+                    <p>0533878008</p>
+                    <a href="tel:0533878008" class="btn btn-primary" style="margin-top: 15px;">
+                        اتصل الآن
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h4>واتساب</h4>
+                    <p>تواصل سريع ومباشر</p>
+                    <a href="https://wa.me/966533878008" target="_blank" class="btn btn-secondary" style="margin-top: 15px;">
+                        راسلنا على واتساب
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>موقعنا</h4>
+                    <p>مدينة الرياض<br>المملكة العربية السعودية</p>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h4>أوقات العمل</h4>
+                    <p>السبت - الخميس<br>من 8 صباحاً إلى 10 مساءً</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الدعوة النهائية للعمل -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>جاهزون لخدمتكم الآن!</h2>
+            <p>
+                لا تتردد في الاتصال بنا الآن للحصول على استشارة مجانية وعرض سعر مناسب لمشروعك. 
+                نحن نضمن لك أعلى مستوى من الجودة والاحترافية في جميع خدماتنا.
+            </p>
+            <div class="cta-buttons">
+                <a href="tel:0533878008" class="btn btn-primary">
+                    <i class="fas fa-phone"></i>
+                    اتصل الآن - 0533878008
+                </a>
+                <a href="https://wa.me/966533878008" target="_blank" class="btn" style="background: #25d366; color: white;">
+                    <i class="fab fa-whatsapp"></i>
+                    واتساب فوري
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // إعدادات الصفحة الأساسية
+        document.addEventListener('DOMContentLoaded', function() {
+            initBackToTopButton();
+            initSmoothScrolling();
+            initPhoneTracking();
+            addAnimations();
+        });
+
+        // زر العودة للأعلى
+        function initBackToTopButton() {
+            const backToTopButton = document.getElementById('backToTop');
+            
+            if (!backToTopButton) return;
+
+            // إظهار/إخفاء الزر عند التمرير
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.remove('hidden');
+                } else {
+                    backToTopButton.classList.add('hidden');
+                }
+            });
+
+            // العودة للأعلى عند النقر
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // التمرير السلس للروابط الداخلية
+        function initSmoothScrolling() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        // تتبع النقرات على أرقام الهاتف
+        function initPhoneTracking() {
+            document.querySelectorAll('a[href^="tel:"]').forEach(phoneLink => {
+                phoneLink.addEventListener('click', function() {
+                    console.log('تم النقر على رقم الهاتف: ' + this.getAttribute('href'));
+                });
+            });
+
+            document.querySelectorAll('a[href^="https://wa.me/"]').forEach(whatsappLink => {
+                whatsappLink.addEventListener('click', function() {
+                    console.log('تم النقر على رابط واتساب: ' + this.getAttribute('href'));
+                });
+            });
+        }
+
+        // إضافة تأثيرات الحركة
+        function addAnimations() {
+            // تأثيرات بسيطة للأزرار
+            document.querySelectorAll('.btn').forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-2px)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+
+            // تأثيرات للبطاقات
+            document.querySelectorAll('.service-card, .contact-card, .feature-item').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.02)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        }
+
+        // إضافة placeholder للصور في حال عدم وجودها
+        document.querySelectorAll('.gallery-item img').forEach(img => {
+            img.addEventListener('error', function() {
+                this.parentElement.innerHTML = `
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image" style="font-size: 3rem; color: var(--gray-600); margin-bottom: 10px;"></i>
+                        <br>
+                        <strong>صورة من أعمالنا</strong><br>
+                        <small>زجاج سيكوريت عالي الجودة</small>
+                    </div>
+                `;
+            });
+        });
+    </script>
+</body>
+</html>
